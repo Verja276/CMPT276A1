@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grade Calculator</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+    <div class="whitebox">
+        <div class="title">
+            <h1>Grade Calculator</h1>
+        </div>
+        <div class="greybox">
+            <div class="activities">
+                <h2>Activities</h2>
+            </div>
+            <div class="give">
+                <h3>Give grades to the numeric activities:</h3>
+            </div>
+            <table id="calctable">
+                <tr>
+                    <div class="topbar">
+                        <th>Name</th>
+                        <th>Short Name</th>
+                        <th>Weight</th>
+                        <th>Grade</th>
+                        <th>Percent</th>
+                    </div>
+                </tr>
+                <tr>
+                    <td>Activity 1</td>
+                    <td>A1</td>
+                    <td><input type="number" class="weight" value=""></td>
+                    <td><input type="number" class="grade1" value=""> / <input type="number" class="grade1" value="">
+                    </td>
+                    <td><output name="percent" class="percent"></output></td>
+                </tr>
+                <tr>
+                    <td>Activity 2</td>
+                    <td>A2</td>
+                    <td><input type="number" class="weight" value=""></td>
+                    <td><input type="number" class="grade1" value=""> / <input type="number" class="grade1" value="">
+                    </td>
+                    <td><output name="percent" class="percent"></output></td>
+                </tr>
+                <tr>
+                    <td>Activity 3</td>
+                    <td>A3</td>
+                    <td><input type="number" class="weight" value=""></td>
+                    <td><input type="number" class="grade1" value=""> / <input type="number" class="grade1" value="">
+                    </td>
+                    <td><output name="percent" class="percent"></output></td>
+                </tr>
+                <tr>
+                    <td>Activity 4</td>
+                    <td>A4</td>
+                    <td><input type="number" class="weight" value=""></td>
+                    <td><input type="number" class="grade1" value=""> / <input type="number" class="grade1" value="">
+                    </td>
+                    <td><output name="percent" class="percent"></output></td>
+                </tr>
+            </table>
+            <button id="add" type="button" name="add">ADD ACTIVITY</button>
+            <div class="result1">
+                <h4>Result</h4>
+            </div>
+            <output name="result" id="result"></output>
+            <div id="buttons">
+                <button name="weighted" id="weighted">WEIGHTED</button>
+                <button name="mean" id="mean">MEAN</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="./calculator.js">
+        </script>
+
+    </div>
+</body>
+
+</html>
+<!-- https://veerajm276a1.herokuapp.com/ -> https://veerajm276a1.herokuapp.com/calculator.html | https://git.heroku.com/veerajm276a1.git -->
